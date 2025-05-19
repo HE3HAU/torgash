@@ -1,0 +1,26 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+*.log.*
+*.DS_Store
+
+# Virtualenv
+venv/
+venv_crypto_bot/ # Имя вашего виртуального окружения
+*.venv
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Data files (если они очень большие и вы не хотите их в репозиторий)
+# data/historical/*.csv # Раскомментируйте, если CSV файлы большие
+# data/models/dqn/*.h5 # Сохраненные модели тоже могут быть большими
+
+# TensorFlow / Keras logs (если используете TensorBoard)
+logs/
